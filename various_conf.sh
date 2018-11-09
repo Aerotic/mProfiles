@@ -19,3 +19,6 @@
 #快速解压指令，保持文件夹结构
 alias derar="unrar x"
 
+#快速载入.bashrc
+alias srcbash="source ~/.bashrc"
+

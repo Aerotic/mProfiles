@@ -19,5 +19,7 @@
 
 alias gcmt="git commit"
 alias gadd="git add"
+alias gdel="git rm"
 alias gpsh="git push"
+alias gpul="git pull"
 alias gcln="git clone"
