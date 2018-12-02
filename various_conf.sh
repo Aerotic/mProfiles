@@ -8,7 +8,7 @@
 #        
 #        
 # -----
-# Last Modified: Fri Nov 09 2018
+# Last Modified: Sun Dec 02 2018
 # Modified By: Aero
 # -----
 # HISTORY:
@@ -22,3 +22,4 @@ alias derar="unrar x"
 #快速载入.bashrc
 alias srcbash="source ~/.bashrc"
 
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin

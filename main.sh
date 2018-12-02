@@ -7,7 +7,7 @@
 # Usage: 个人配置文件载入主文件     
 #        
 # -----
-# Last Modified: Fri Nov 09 2018
+# Last Modified: Sun Dec 02 2018
 # Modified By: Aero
 # -----
 # HISTORY:
@@ -71,3 +71,12 @@ else
     echo "\033[34m $MY_PROFILE_HOME/vivado_conf.sh\n"
 fi
 
+#texlive
+if [ -f $MY_PROFILE_HOME/texlive_conf.sh ]; then
+    . $MY_PROFILE_HOME/texlive_conf.sh
+else
+    echo -n "\033[31m Fail to load setting of "
+    echo "\033[34m TexLive"
+    echo -n "\033[31m Cannot find file "
+    echo "\033[34m $MY_PROFILE_HOME/texlive_conf.sh\n"
+fi
