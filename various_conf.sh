@@ -23,3 +23,6 @@ alias derar="unrar x"
 alias srcbash="source ~/.bashrc"
 
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# pandoc快速脚本
+alias md2pdf=" /home/aero/Documents/Notes/script/md2pdf.py"
