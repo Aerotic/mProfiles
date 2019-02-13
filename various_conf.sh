@@ -8,7 +8,7 @@
 #        
 #        
 # -----
-# Last Modified: Sun Dec 02 2018
+# Last Modified: Fri Dec 28 2018
 # Modified By: Aero
 # -----
 # HISTORY:
@@ -26,3 +26,6 @@ export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 # pandoc快速脚本
 alias md2pdf=" /home/aero/Documents/Notes/script/md2pdf.py"
+
+#Rocket-chip
+export RISCV=/home/aero/GIT_ROCKET/rocket-chip/riscv-tools/riscv-gnu-toolchain
