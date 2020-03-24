@@ -22,10 +22,6 @@ alias derar="unrar x"
 #快速载入.bashrc
 alias srcbash="source ~/.bashrc"
 
+# v2ray
+alias v2ray='/home/rv/v2r/v2ray'
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-
-# pandoc快速脚本
-alias md2pdf=" /home/aero/Documents/Notes/script/md2pdf.py"
-
-#Rocket-chip
-export RISCV=/home/aero/GIT_ROCKET/rocket-chip/riscv-tools/riscv-gnu-toolchain

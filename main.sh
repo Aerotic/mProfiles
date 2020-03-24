@@ -39,44 +39,12 @@ else
     echo "\033[34m $MY_PROFILE_HOME/various_conf.sh\n"
 fi
 
-#Modelsim
-if [ -f $MY_PROFILE_HOME/modelsim_conf.sh ]; then
-    . $MY_PROFILE_HOME/modelsim_conf.sh
-else
-    echo -n "\033[31m Fail to load setting of "
-    echo "\033[34m Modelsim"
-    echo -n "\033[31m Cannot find file "
-    echo "\033[34m $MY_PROFILE_HOME/modelsim_conf.sh\n"
-fi
-
-
-#vscode
-if [ -f $MY_PROFILE_HOME/vscode_conf.sh ]; then
-    . $MY_PROFILE_HOME/vscode_conf.sh
-else
-    echo -n "\033[31m Fail to load setting of "
-    echo "\033[34m Visual Studio Code"
-    echo -n "\033[31m Cannot find file "
-    echo "\033[34m $MY_PROFILE_HOME/vscode_conf.sh\n"
-fi
-
-
-#xilinx
-if [ -f $MY_PROFILE_HOME/vivado_conf.sh ]; then
-    . $MY_PROFILE_HOME/vivado_conf.sh
-else
-    echo -n "\033[31m Fail to load setting of "
-    echo "\033[34m Vivado 2017"
-    echo -n "\033[31m Cannot find file "
-    echo "\033[34m $MY_PROFILE_HOME/vivado_conf.sh\n"
-fi
-
 #texlive
-if [ -f $MY_PROFILE_HOME/texlive_conf.sh ]; then
-    . $MY_PROFILE_HOME/texlive_conf.sh
+if [ -f $MY_PROFILE_HOME/rv.sh ]; then
+    . $MY_PROFILE_HOME/rv.sh
 else
     echo -n "\033[31m Fail to load setting of "
-    echo "\033[34m TexLive"
+    echo "\033[34m RISCV ENV"
     echo -n "\033[31m Cannot find file "
-    echo "\033[34m $MY_PROFILE_HOME/texlive_conf.sh\n"
+    echo "\033[34m $MY_PROFILE_HOME/rv.sh\n"
 fi
