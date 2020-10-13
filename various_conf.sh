@@ -23,5 +23,4 @@ alias derar="unrar x"
 alias srcbash="source ~/.bashrc"
 
 # v2ray
-alias v2ray='/home/rv/v2r/v2ray'
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin

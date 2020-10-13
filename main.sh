@@ -15,10 +15,10 @@
 # ----------	---	----------------------------------------------------------
 #
 
+export ALL_PROXY=socks5://127.0.0.1:1080
 
 
-
-#various
+#git
 if [ -f $MY_PROFILE_HOME/git_conf.sh ]; then
     . $MY_PROFILE_HOME/git_conf.sh
 else
