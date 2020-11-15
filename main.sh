@@ -15,7 +15,16 @@
 # ----------	---	----------------------------------------------------------
 #
 
-export ALL_PROXY=socks5://127.0.0.1:1080
+# export ALL_PROXY=socks5://127.0.0.1:1080
+
+alias srcros="source /opt/ros/foxy/setup.sh"
+alias srclocalros="source install/local_setup.bash"
+alias urosbuild="ros2 run micro_ros_setup build_firmware.sh"
+alias urosflash="ros2 run micro_ros_setup flash_firmware.sh"
+alias urosram="ros2 run micro_ros_setup ram_firmware.sh"
+alias urosagentserial="ros2 run micro_ros_agent micro_ros_agent serial --dev "
+
+source $MY_PROFILE_HOME/EzMinicom.sh
 
 
 #git
