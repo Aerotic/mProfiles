@@ -26,10 +26,10 @@ export PATH=$VIVADO_HOME/bin:$PATH
 alias suvivado='/home/rv/xilinx/Vivado/2018.2/bin/vivado'
 
 # JAVA
-export JAVA_HOME=$MY_HOME/jdk1.8.0_40
-export JRE_HOME=$JAVA_HOME/jre 
-export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
-export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+# export JAVA_HOME=$MY_HOME/jdk1.8.0_40
+# export JRE_HOME=$JAVA_HOME/jre 
+# export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
+# export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
 # Scala
 export PATH=$MY_HOME/scala-2.12.4:$PATH
