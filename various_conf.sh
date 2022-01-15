@@ -21,6 +21,3 @@ alias derar="unrar x"
 
 #快速载入.bashrc
 alias srcbash="source ~/.bashrc"
-
-# v2ray
-export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
